@@ -1,4 +1,4 @@
-# Detect ASINC Encoder
+# Detect ASIC Encoder
 
 This software's goal is to detect if your system has any asic encoder wether it is QuickSync (Intel), NVENC (NVIDIA) or VCE (AMD) and to list their capabilities.
 I used those ressources to get a detailed list :
@@ -13,4 +13,4 @@ After a short time you'll get the list of asic encoders on your system.
 
 ## Contributing
 
-If you want to help to improve this software don't hesitate to create a [ticket](https://github.com/Kenshin9977/Detect_hardware/issues)
+If you have an issue or want to help to improve this software don't hesitate to create a [ticket](https://github.com/Kenshin9977/Detect_hardware/issues)
