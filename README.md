@@ -8,7 +8,7 @@ I used those ressources to get a detailed list :
 
 ## How to use
 
-Just download the latest version in the release tab, extract the archive then double click on the start.bat.
+Just download the latest version in the [release tab](https://github.com/Kenshin9977/Detect_hardware/releases), extract the archive then double click on the start.bat.
 After a short time you'll get the list of asic encoders on your system.
 
 ## Contributing
