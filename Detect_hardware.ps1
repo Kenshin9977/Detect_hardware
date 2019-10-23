@@ -83,7 +83,7 @@ if($nvenc_gen_6){"H.265 (HEVC) B Frame"}
 if($nvenc_capable){""}
 else{"No NVENC capable hardware was found on the system"}
 
-if($qsv_gen_1){"QuickSync Gen1"} elseIf ($qsv_gen_2){"QuickSync Gen2"} elseif($qsv_gen_3){"QuickSync Gen3"} elseif($qsv_gen_4){"QuickSync Gen4"} elseif($qsv_gen_5){"QuickSync Gen5"}
+if($qsv_gen_1){"QuickSync Gen1"} elseif($qsv_gen_2){"QuickSync Gen2"} elseif($qsv_gen_3){"QuickSync Gen3"} elseif($qsv_gen_4){"QuickSync Gen4"} elseif($qsv_gen_5){"QuickSync Gen5"}
 if ($qsv_capable -and (-not ($qsv_gen_1 -or $qsv_gen_2 -or $qsv_gen_3 -or $qsv_gen_4 -or $qsv_gen_5))){"CPU has an iGP which is QuickSync capable but the iGPU isn't enabled. You can enable it in the BIOS."}
 if ($qsv_gen_1 -or $qsv_gen_2 -or $qsv_gen_3 -or $qsv_gen_4 -or $qsv_gen_5){"QuickSync Capable, list of the encoding capacities :`nH264"}
 if ($qsv_gen_2 -or $qsv_gen_3 -or $qsv_gen_4 -or $qsv_gen_5){"MPEG-2"}
@@ -97,5 +97,7 @@ if($vce_capable -and (-not ($vce -or $vce_hevc))){"CPU has an iGP which is VCE c
 if($vce -or $vce_hevc){"VCE Capable, list of the encoding capacities"}
 if($vce -or $vce_hevc){"H264"}
 if($vce_hevc){"HEVC"}
+
+if (-not ($qsv_capable -or $vce_capable -or $nvenc_capable)){No ASIC encoder was found on this system. If you think it is a mistake create a ticket on https://github.com/Kenshin9977/Detect_hardware/issues}
 
 PAUSE
