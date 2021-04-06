@@ -2,9 +2,9 @@
 
 This software's goal is to detect if your system has any asic encoder wether it is QuickSync (Intel), NVENC (NVIDIA) or VCE (AMD) and to list their capabilities.
 I used those ressources to get a detailed list :
-- [NVENC] (https://developer.nvidia.com/video-encode-decode-gpu-support-matrix)
-- [QuickSync] (https://en.wikipedia.org/wiki/Intel_HD_Graphics)
-- [VCE] (https://en.wikipedia.org/wiki/Video_Coding_Engine)
+- [NVENC](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix)
+- [QuickSync](https://en.wikipedia.org/wiki/Intel_HD_Graphics)
+- [VCE](https://en.wikipedia.org/wiki/Video_Coding_Engine)
 
 ## How to use
 
